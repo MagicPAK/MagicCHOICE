@@ -29,6 +29,5 @@ def autocorrelation(query_states, key_states):
     
     return attn_weights
 
-
 attn_output = autocorrelation(2, 1)
 print("ok")
